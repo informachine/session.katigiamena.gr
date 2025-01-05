@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Meeting</title>
+</head>
+<body>
+    <h1>Click Below to Join the Microsoft Teams Meeting</h1>
+    <p>
+        <button id="join-meeting">Join the Meeting</button>
+    </p>
+    <p>If the button doesn't work, copy and paste this URL into your browser:</p>
+    <code>https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWYxZjA4ODAtYjYxNS00N2IzLTg5OGEtZGQ4ODY3N2NhNzZk%40thread.v2/0?context=%7b%22Tid%22%3a%22cc97534e-155f-4cb6-b63c-10aaee9f8dbb%22%2c%22Oid%22%3a%2296f3e7f8-ef36-4ea7-a60f-e13c1a698ba7%22%7d</code>
+
+    <script>
+        document.getElementById('join-meeting').addEventListener('click', function () {
+            window.open(
+                "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWYxZjA4ODAtYjYxNS00N2IzLTg5OGEtZGQ4ODY3N2NhNzZk%40thread.v2/0?context=%7b%22Tid%22%3a%22cc97534e-155f-4cb6-b63c-10aaee9f8dbb%22%2c%22Oid%22%3a%2296f3e7f8-ef36-4ea7-a60f-e13c1a698ba7%22%7d",
+                "_blank"
+            );
+        });
+    </script>
+</body>
+</html>
